@@ -1,0 +1,246 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color:#e5e5e5;
+}
+h1, h2, h3, h4, h5, h6, p, li{
+	font-family: "Lato", sans-serif;
+}
+button, a{
+	font-family: "Montserrat", sans-serif;
+}
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li:before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #5D9818; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */ 
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+/* width */
+.biggerContentBox::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+/* Handle */
+.biggerContentBox::-webkit-scrollbar-thumb {
+  background: #E5E5E5; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.biggerContentBox::-webkit-scrollbar-thumb:hover {
+  background: #b2b2b2; 
+}
+
+.navBar {
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 50px;
+	top: 0;	
+	background-color: #5d9818;
+	box-shadow: 0px 1px 15px #090f02;
+}
+
+#sduLogo{
+	height: 20px;
+	float: left;
+	margin-top: 13px;
+	margin-left: 10px;
+}
+.navBarLinks{
+	display: block;
+	text-align: center;
+	margin: auto;
+	padding: 14px;
+}
+
+.profileLink, .Link1, .Link2, .Link3{
+	height: 50px;
+	padding: 1.14% 2%;
+	margin: -4px;
+	color: #000000;
+	background-color: #5d9818;
+	text-decoration: none;
+	font-weight: bold;
+}
+.profileLink:hover, .Link1:hover, .Link2:hover, .Link3:hover{
+	background-color: #afd775;
+}
+
+.profileLink:visited, .Link1:visited, .Link2:visited, .Link3:visited{
+	color: #000000;
+}
+.profileLink:active, .Link1:active, .Link2:active, .Link3:active{
+	background-color: #6da22f;
+}
+#descriptionContainer{
+	float: left;
+	width: 400px;
+	height: 1000px;
+	margin-left: 80px;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	margin-right: 15px;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+.profileImageContainer{
+	width: 400px;
+	height: 300px;
+	text-align: center;
+}
+.profileImage{
+	width: 400px;
+}
+.profileImageName{
+	position: relative;
+	bottom: 100px;
+	left: -100px;
+	font-size: 40px;
+	text-shadow: 0px 0px 5px rgba(255,255,255,0.5);
+}
+.detailBlock{
+	display:block;
+	float:left;
+}
+.detailIcon{
+	float: left;
+	width: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 20px;
+}
+.detailText{
+	float: left;
+	padding-top: 4px;
+	color:#333333;
+}
+#descriptionLine{
+	margin-top: 250px;
+	width: 80%;
+	border: 0;
+	background-color:#E5E5E5;
+	height: 1px;
+}
+.descriptionIcon{
+	float: left;
+	width: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+.subjectsText{
+	float: left;
+	margin-top: 12.5px;
+	font-size: 20px;
+	font-weight: bold;
+	color:#333333;
+}
+.subjectsList{
+	float: left;
+	margin-left: -5px;
+}
+.subjectsList li{
+	color:#333333;
+}
+.uploads{
+	float: left;
+	margin-top: 15px;
+	width: 944px;
+	top: 0;
+	height: 492.5px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+.downloads{
+	float: left;
+	width: 944px;
+	margin-top: 70px;
+	height: 492.5px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+.contentIMG{
+	float: left;
+	width: 60px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 30px;
+}
+.contentHeadline{
+	float: left;
+	font-size: 30px;
+	padding-top: 5px;
+	font-weight: bold;
+	color:#333333;
+}
+.biggerContentBox{
+	margin-left: 45px;
+	width: 854px;
+	height: 365px;
+	overflow-y: scroll;
+}
+.contentBox{
+	float: left;
+}
+.contentTitle{
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	color: #333333;
+	
+}
+.calenderIMG{
+	clear: both;
+	float: left;
+	width: 20px;
+	margin-right: 15px;
+}
+.date{
+	float: left;
+	margin-top: 2px;
+	color: #333333;
+}
+.contentDescription{
+	clear: both;
+	margin-top: 0px;
+	color: #333333;
+}
+.contentLine{
+	margin-top: 30px;
+	width: 80%;
+	border: 0;
+	background-color:#E5E5E5;
+	height: 1px;
+	
+}
+
+.footerOutro{
+	background-color: #5d9818;
+	float:left;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+#footer{
+	padding-top: 25px;
+}
+#footerLink1, #footerLink2, #footerLink3, #footerLink4{
+	vertical-align: middle;
+	color:#000000;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-decoration: none;
+}
+#footerLink1:hover, #footerLink2:hover, #footerLink3:hover, #footerLink4:hover{
+	text-decoration:underline;
+}
+#footerLink1:visited, #footerLink2:visited, #footerLink3:visited, #footerLink4:visited{
+	color: #000000;
+}
