@@ -2,13 +2,14 @@
 <html>
 	<head>
 		<title>Content Page</title>
-		<script src="../lib/easeljs-0.7.1.min.js"></script>
+		<meta charset="UTF-8" />
 		<link rel="stylesheet" href="css/stylesheet.css">
 		<link rel="stylesheet" href="css/contentStylesheet.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+		<script src="js/ContentLoader.js"></script>
 	</head>
-	<body > 
+	<body onload="onLoad()" > 
 		<div id="navBar" class="clear">
        		<a href="index.html ">
        			<img id="sduLogo" src="img/SDU_BLACK_RGB_png.png" />
@@ -40,6 +41,7 @@
 					</ul>
 				</td>
 				<td id="main">
+					<p>Please use "Web Server For Chrome" to load files</p>
 					<div class="item">
 						<img class="img" SRC="img/SemesterProjektFileIMG.png">
 						<p class="name"><img class="fileIcon" SRC="img/SemesterProjektFileIMG.png">test_file1.js</p>
