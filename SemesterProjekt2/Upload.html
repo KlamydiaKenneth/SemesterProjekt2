@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Upload page</title>
+		<script src="../lib/easeljs-0.7.1.min.js"></script>
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<link rel="stylesheet" href="css/uploadStylesheet.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	</head>
+	<body > 
+		<div id="navBar" class="clear">
+       		<a href="index.html ">
+       			<img id="sduLogo" src="img/SDU_BLACK_RGB_png.png" />
+       		</a>
+       		<div class="navBarLinks">
+       			<a href="profile.html" class="homeLink">Profile</a>
+       			<a href="content.html" class="ContentLink">Content</a>
+       			<a href="upload.html" class="uploadLink">Upload</a>
+       			<a href="login.html" class="loginLink">Login</a>
+       		</div>
+		</div>
+		<div id="dummyNavBar" class="clear"></div>
+		<div id="content" class="clear">
+			<form>
+				<input type="hidden" id="UserId" name="UserId" value="1337">
+				<p>Select Files:</p>
+				<input type="file" name="Files" multiple>
+				<p>Subject:</p>
+				<input type="radio" name="Subject" Value="Subject1" ><span>Distribueret programmering</span><br>
+				<input type="radio" name="Subject" Value="Subject2"><span>Udvikling af interaktive systemer til mennesker</span><br>
+				<input type="radio" name="Subject" Value="Subject3"><span>Videregående udvikling af 3D applikationer</span><br>
+				<input type="radio" name="Subject" Value="Other" CHECKED><span>Andet</span>
+				<p>Folder:</p>
+				<input type="text" name="Folder" value="">
+				<p>Co-Workers:</p>
+				<input type="text" name="Coworker" value="">
+				<p>Privacy:</p>
+				<input type="radio" name="Privacy" Value="Private" CHECKED><span>Private</span><br>
+				<input type="radio" name="Privacy" Value="Public"><span>Public</span>
+				<p>Description:</p>
+				<textarea rows="3" cols="40" name="Description"></textarea><br>
+				<div id="submit">
+					<input type="submit" value="Upload" onclick="alert('All your file are belong to us')">
+				</div>
+			</form>
+		</div>
+		<div class="footerOutro">
+       		<footer id="footer">
+       			<a href="#" id="footerLink1">Terms of Service</a>
+       			<a href="#" id="footerLink2">Contact Us</a>
+       			<a href="#" id="footerLink3">Privacy Policy</a>
+       			<a href="#" id="footerLink4">FAQ</a>
+       			<div class="poweredBY">
+       				<p class="poweredBY2">Powered by Über nice people</p>
+       			</div>
+       		</footer>
+	   </div>
+	</body>
+
+<script>
+//Insert Scripts Here!!!
+</script>
+
+</html>

@@ -1,0 +1,109 @@
+
+.frontPageHeader{
+	padding: 126px 16px;
+	text-align: center;
+	background-color: #5d9818;
+	margin: 0;
+}
+#frontPageIntro {
+	color: #ffffff;
+	font-size: 80px;
+}
+#frontPageParagaph{
+	color: #ffffff;
+	font-size: 25px;
+}
+#signUpButton{
+	background-color: #000000;
+	color: #ffffff;
+	border: none;
+	height: 40px;
+	width: 100px;
+}
+#signUpButton:hover{
+	background-color: #323232;
+}
+#signUpButton:focus{
+	outline: 0;
+}
+#signUpButton:active{
+	background-color: #191919;
+}
+
+.contentContainer{
+	width: 100%;
+	height: 400px;
+	background-color: #FFFFFF;
+	margin-top: -22px;
+}
+.contentContainer2{
+	width: 100%;
+	height: 400px;
+	margin-top: 100px;
+	padding-bottom: 100px;
+	background-color: #e5e5e5;
+}
+.contentWhite{
+	padding-top: 60px;
+	margin-left: 18%;
+	margin-right: 18%;
+	width: 64%;
+}
+.contentGrey{
+	padding-top: 60px;
+	margin-left: 18%;
+	margin-right: 18%;
+	width: 64%;
+}
+.firstText{
+	width:60%;
+	float: left;
+}
+.secondText{
+	width: 60%;
+	float: left;
+}
+.contentHeader{
+	font-size: 40px;
+}
+
+.contentTextBlack{
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.contentTextGrey{
+	font-size: 14px;
+	color: #999999;
+}
+
+#firstFrontPageImg{
+	float: left;
+	padding-top: 75px;
+	height: 250px;
+}
+#secondFrontPageImg{
+	float: left;
+	padding-top: 75px;
+	padding-right: 20px;
+	height: 200px;
+}
+.fillerContentContainer{
+	text-align: center;
+	margin-top: -23px;
+	background-color: #333333;
+	width: 100%;
+	height: 200px;
+}
+.question{
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 20px;
+	padding-top: 65px;
+}
+.answer{
+	font-style: italic;
+	color: #ffffff;
+	padding-bottom: 10px;
+}
+

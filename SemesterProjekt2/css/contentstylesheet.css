@@ -1,0 +1,115 @@
+/*
+CONTENT
+*/
+
+#content {
+  overflow: hidden;
+  width: 100%;
+  min-height: 800px;
+  margin: 0 auto;
+  background-color: #F3F3F3;
+}
+
+#content table {
+  margin: 5px;
+  width: 100%;
+  min-height: 800px;
+  border-spacing: 0px;
+}
+
+/*
+CONTENT SIDEBAR
+*/
+
+#filetree {
+  min-width: 180px;
+  float: left;
+  background-color: #DDD;
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: 2px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+#filetree ul {
+  width: auto;
+  margin: auto;
+}
+
+#filetree li {
+  font-family: "Lato", sans-serif;
+  cursor: pointer;
+  margin-left: -30px;    
+}
+
+.sidesub li {
+  margin-left: -55px !important;
+}
+
+#filetree li:hover {
+  background-color: #666;    
+}
+
+/*
+CONTENT ITEMS
+*/
+
+#main {
+  vertical-align: top;
+}
+
+.item {
+  position: relative;
+  background-color: #EFEFEF;
+  margin:  11px 0px 0px 11px;
+  float: left;
+  height: 290px;
+  width: 290px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+
+.item:last-of-type {
+  margin-bottom:  11px; !important;
+}
+
+.img {
+  margin: 10px 10px 0px 10px;
+  height: 60%;
+  width: 90%;
+}
+
+.name {
+  margin: 0px 10px 2px 10px;
+}
+
+.fileIcon{
+	float: left;
+	width: 18px;
+	margin-left: 5px;
+	margin-right: 15px;
+}
+
+.subject {
+  margin: 0px 10px 2px 10px;
+}
+
+.subjectIcon{
+	float: left;
+	width: 18px;
+	margin-left: 5px;
+	margin-right: 15px;
+}
+
+.desc {
+  margin: 0px 10px 0px 10px;
+}
+
+.downloadIcon{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	width: 20px;
+	margin:auto;
+}
