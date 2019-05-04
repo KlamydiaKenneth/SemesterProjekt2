@@ -7,8 +7,15 @@
 		<link rel="stylesheet" href="css/uploadStylesheet.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+		
+		<link rel="stylesheet" href="js/ui/1.12.1/themes/base/jquery-ui.css">
+		<script src="js/jquery-1.12.4.js"></script>
+		<script src="js/ui/1.12.1/jquery-ui.js"></script>
+		
+		<script src="js/Upload.js"></script>
+		
 	</head>
-	<body > 
+	<body onload="onLoad()" > 
 		<div id="navBar" class="clear">
        		<a href="index.html ">
        			<img id="sduLogo" src="img/SDU_BLACK_RGB_png.png" />
@@ -32,9 +39,9 @@
 				<input type="radio" name="Subject" Value="Subject3"><span>Videregående udvikling af 3D applikationer</span><br>
 				<input type="radio" name="Subject" Value="Other" CHECKED><span>Andet</span>
 				<p>Folder:</p>
-				<input type="text" name="Folder" value="">
+				<input type="text" id="autoFolder" name="Folder" value="">
 				<p>Co-Workers:</p>
-				<input type="text" name="Coworker" value="">
+				<input type="text" id="autoCoop" name="Coworker" value="">
 				<p>Privacy:</p>
 				<input type="radio" name="Privacy" Value="Private" CHECKED><span>Private</span><br>
 				<input type="radio" name="Privacy" Value="Public"><span>Public</span>
