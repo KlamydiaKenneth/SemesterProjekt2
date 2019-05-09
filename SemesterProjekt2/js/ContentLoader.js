@@ -17,8 +17,8 @@ xmlhttp.send();
 }
 function converter(xml) {
 var xmlDoc = xml.responseXML; 
-var x = xmlDoc.getElementsByTagName("USERID1")[0].getElementsByTagName("FILE");//USERID1 is just a temp name for a user
-content = "";
+var x = xmlDoc.getElementsByTagName("ADMIN")[0].getElementsByTagName("FILE");//USERID1 is just a temp name for a user
+var content = "";
 //converts the content of the xml file to HTML
 for (i = 0; i <x.length; i++) {
 	content += "<div class='item'><img class='img' SRC='";
@@ -31,6 +31,24 @@ for (i = 0; i <x.length; i++) {
 	content +=  x[i].getElementsByTagName("DESC")[0].childNodes[0].nodeValue; //Example::  a very descriptive description
 	content += "</p><a href='#DOWNLOADING' class='loginLink'><img class='downloadIcon' SRC='img/DownloadIcon.png'></a></div>";
 }
+
+    var localFiles = JSON.parse(localStorage.getItem("localFiles") || "[]");
+	
+    localFiles.forEach(function(file, index) {
+    console.log("'loading'[" + index + "]: " + file.name);
+   
+ 
+	content += "<div class='item'><img class='img' SRC='";
+	content += file.IMGSRC; //Example::  img/SemesterProjektFileIMG.png
+	content += "'><p class='name'><img class='fileIcon' SRC='img/SemesterProjektFileIMG.png'>";
+	content += file.name; //Example::  test_file1.js
+	content += "</p><p class='subject'><img class='subjectIcon' SRC='img/BookIcon.png'>";
+	content += file.Subject; //Example::  Distribueret programmering
+	content += "</p><p class='desc'>";
+	content += file.Description; //Example::  a very descriptive description
+	content += "</p><a href='#DOWNLOADING' class='loginLink'><img class='downloadIcon' SRC='img/DownloadIcon.png'></a></div>";
+} );
+
 //Replaces the content of the Main div with the tags made using the XML
 document.getElementById("main").innerHTML = content;
 }

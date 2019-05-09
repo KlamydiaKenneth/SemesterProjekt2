@@ -29,14 +29,14 @@
 		</div>
 		<div id="dummyNavBar" class="clear"></div>
 		<div id="content" class="clear">
-			<form>
-				<input type="hidden" id="UserId" name="UserId" value="1337">
+			<form id="uploadForm"  onsubmit='onSubmit(); return false;'>
+				<input type="hidden" id="UserId" name="UserId" value="UserId2">
 				<p>Select Files:</p>
-				<input type="file" name="Files" multiple>
+				<input type="file" name="Files" required> 
 				<p>Subject:</p>
-				<input type="radio" name="Subject" Value="Subject1" ><span>Distribueret programmering</span><br>
-				<input type="radio" name="Subject" Value="Subject2"><span>Udvikling af interaktive systemer til mennesker</span><br>
-				<input type="radio" name="Subject" Value="Subject3"><span>Videregående udvikling af 3D applikationer</span><br>
+				<input type="radio" name="Subject" Value="Distribueret programmering" ><span>Distribueret programmering</span><br>
+				<input type="radio" name="Subject" Value="Udvikling af interaktive systemer til mennesker"><span>Udvikling af interaktive systemer til mennesker</span><br>
+				<input type="radio" name="Subject" Value="Videregående udvikling af 3D applikationer"><span>Videregående udvikling af 3D applikationer</span><br>
 				<input type="radio" name="Subject" Value="Other" CHECKED><span>Andet</span>
 				<p>Folder:</p>
 				<input type="text" id="autoFolder" name="Folder" value="">
@@ -48,7 +48,7 @@
 				<p>Description:</p>
 				<textarea rows="3" cols="40" name="Description"></textarea><br>
 				<div id="submit">
-					<input type="submit" value="Upload" onclick="alert('All your file are belong to us')">
+					<input type="submit" id="submit">
 				</div>
 			</form>
 		</div>

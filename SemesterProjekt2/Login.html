@@ -7,8 +7,12 @@
 		<link rel="stylesheet" href="css/loginStylesheet.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+		
+		<script src="js/jquery-1.12.4.js"></script>
+		
+		<script src="js/Login.js"></script>
 	</head>
-	<body > 
+	<body onload="onLoad()"> 
 		<div id="navBar" class="clear">
        		<a href="index.html ">
        			<img id="sduLogo" src="img/SDU_BLACK_RGB_png.png" />
@@ -22,12 +26,12 @@
 		</div>
 		<div id="dummyNavBar" class="clear"></div>
 		<div id="content" class="clear">
-			<form id="signIn">
-				<p >Sign In</p>
+			<p id="loggedIn"></p>
+			<form id="signIn" onsubmit='onSubmit(); return false;'>
+				<p>Sign In</p>
 				<p><input type="text" name="UserId" placeholder="Username"></p>
 				<p><input type="password" name="psw" placeholder="Password"></p>
-				<p id="warning">NB! passwords that are submitted is shown in the URL</p>
-				<p><input type="submit" value="Login" onclick="alert('Nice Password')"></p>
+				<p><input type="submit" id="submit"></p>
 			</form>
 		</div>
 		<div class="footerOutro">
@@ -42,7 +46,6 @@
        		</footer>
        </div>
 	</body>
-
 <script>
 //Insert Scripts Here!!!
 </script>

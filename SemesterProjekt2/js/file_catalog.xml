@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CATALOG>
-	<USERID1>
+	<ADMIN>
 		<FILE>
 			<IMGSRC>img/SemesterProjektFileIMG.png</IMGSRC>
 			<NAME>test_file1.js</NAME>
@@ -37,7 +37,7 @@
 			<SUBJECT>Andet</SUBJECT>
 			<DESC>Look at That!</DESC>
 		</FILE>
-	</USERID1>
+	</ADMIN>
 	<USERID2>
 		<FILE>
 			<IMGSRC>img/Nikkerlaj.jpg</IMGSRC>
