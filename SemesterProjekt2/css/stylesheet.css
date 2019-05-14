@@ -1,8 +1,4 @@
-/*
-Main Stylesheet is for shared variables?
-*/
-
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6, p, ul, li, span, input{
 	font-family: "Lato", sans-serif;
 }
 button, a{
@@ -10,27 +6,12 @@ button, a{
 }
 
 body {
-	min-height: 100vh;
 	padding: 0;
 	margin: 0;
 }
 
-
-/*
-Clear is for correcting possible float:; visual artifacts
-*/
-
-.clear {
-  clear: both;
-}
-
-/*
-NAVIGATION BAR
-*/
-
-#navBar {
+.navBar {
 	position: fixed;
-	z-index: 1;
 	width: 100%;
 	height: 50px;
 	top: 0;
@@ -39,9 +20,9 @@ NAVIGATION BAR
 }
 
 #sduLogo{
-	height: 20px;
+	height: 45px;
 	float: left;
-	margin-top: 13px;
+	margin-top: 3px;
 	margin-left: 10px;
 }
 
@@ -52,75 +33,160 @@ NAVIGATION BAR
 	padding: 14px;
 }
 
-.navBarLinks a{
-	height: 100%;
-	padding: 14px 2% 17px 2%;
+.homeLink, .Link1, .Link2, .Link3{
+	height: 50px;
+	padding: 1.14% 2%;
 	margin: -4px;
 	color: #000000;
 	background-color: #5d9818;
 	text-decoration: none;
 	font-weight: bold;
 }
-.navBarLinks a:hover{
+.homeLink:hover, .Link1:hover, .Link2:hover, .Link3:hover{
 	background-color: #afd775;
 }
 
-.navBarLinks a:visited{
+.homeLink:visited, .Link1:visited, .Link2:visited, .Link3:visited{
 	color: #000000;
 }
-.navBarLinks a:active{
+.homeLink:active, .Link1:active, .Link2:active, .Link3:active{
 	background-color: #6da22f;
 }
-
-
-#dummyNavBar { /* to push all elements down so the navbar dont cover them up*/
-	width: 100%;
-	height: 55px;	
+.frontPageHeader{
+	padding: 126px 16px;
+	text-align: center;
+	background-color: #5d9818;
+	margin: 0;
+}
+#frontPageIntro {
+	color: #ffffff;
+	font-size: 80px;
+}
+#frontPageParagaph{
+	color: #ffffff;
+	font-size: 25px;
+}
+#signUpButton{
+	background-color: #000000;
+	color: #ffffff;
+	border: none;
+	height: 40px;
+	width: 100px;
+}
+#signUpButton:hover{
+	background-color: #323232;
+}
+#signUpButton:focus{
+	outline: 0;
+}
+#signUpButton:active{
+	background-color: #191919;
 }
 
-
-/*
-CONTENT mostly uniq so empty
-*/
-
-/*
-footer
-*/
-
-#dummyFooter { /* to push all elements down so the footer dont cover them up*/
+.contentContainer{
 	width: 100%;
-	height: 200px;	
+	height: 400px;
+	background-color: #FFFFFF;
+	margin-top: -22px;
+}
+.contentContainer2{
+	width: 100%;
+	height: 400px;
+	margin-top: 100px;
+	padding-bottom: 100px;
+	background-color: #e5e5e5;
+}
+.contentWhite{
+	padding-top: 60px;
+	margin-left: 18%;
+	margin-right: 18%;
+	width: 64%;
+}
+.contentGrey{
+	padding-top: 60px;
+	margin-left: 18%;
+	margin-right: 18%;
+	width: 64%;
+}
+.firstText{
+	width:60%;
+	float: left;
+}
+.secondText{
+	width: 60%;
+	float: left;
+}
+.contentHeader{
+	font-size: 40px;
 }
 
+.contentTextBlack{
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.contentTextGrey{
+	font-size: 14px;
+	color: #999999;
+}
+
+#firstFrontPageImg{
+	float: left;
+	padding-top: 75px;
+	height: 250px;
+}
+#secondFrontPageImg{
+	float: left;
+	padding-top: 75px;
+	padding-right: 20px;
+	height: 200px;
+}
+.fillerContentContainer{
+	text-align: center;
+	margin-top: -23px;
+	background-color: #333333;
+	width: 100%;
+	height: 200px;
+}
+.question{
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 20px;
+	padding-top: 65px;
+}
+.answer{
+	font-style: italic;
+	color: #ffffff;
+	padding-bottom: 10px;
+}
+.poweredBY2{
+	font-family: "Lato", sans-serif;
+	color:#999999
+	
+}
 .footerOutro{
 	background-color: #E5E5E5;
 	width: 100%;
+	bottom: 0;
 	height: 200px;
 	text-align: center;
 }
-
 #footer{
 	padding-top: 80px;
 }
-
-.profileClass {
-	padding-top: 25px !important;
-}
-
-#footer a{
+#footerLink1, #footerLink2, #footerLink3, #footerLink4{
 	vertical-align: middle;
+	color:#000000;
 	margin-left: 10px;
 	margin-right: 10px;
 	text-decoration: none;
 }
-#footer a:hover{
+#footerLink1:hover, #footerLink2:hover, #footerLink3:hover, #footerLink4:hover{
 	text-decoration:underline;
 }
-#footer a:visited{
+#footerLink1:visited, #footerLink2:visited, #footerLink3:visited, #footerLink4:visited{
 	color: #000000;
 }
-
-.poweredBY2{
-	font-family: "Lato", sans-serif;
-	color:#999999
+#footerLink1:active, #footerLink2:active, #footerLink3:active, #footerLink4:active{
+	color: #000000;
 }

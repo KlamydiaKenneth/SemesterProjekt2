@@ -7,27 +7,46 @@ CONTENT
   width: 100%;
   min-height: 800px;
   margin: 0 auto;
-  background-color: #F3F3F3;
-}
-
-#content table {
-  margin: 5px;
-  width: 100%;
-  min-height: 800px;
-  border-spacing: 0px;
+  margin-top: 50px;
 }
 
 /*
 CONTENT SIDEBAR
 */
+ul {
+  list-style: none; /* Remove default bullets */
+}
+ul li:before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #5D9818; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */ 
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  padding-bottom: 3px;
+  padding-top: 3px;
+  border: none;
+}
+
+
+.contentDirectory{
+	float: left;
+	margin-top: 25px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	width: 400px;
+	height: 300px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
 
 #filetree {
   min-width: 180px;
   float: left;
   background-color: #DDD;
   padding: 10px;
-  border-radius: 20px;
   margin-right: 2px;
+  margin-top: 13px;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
 }
 
@@ -43,7 +62,7 @@ CONTENT SIDEBAR
 }
 
 .sidesub li {
-  margin-left: -55px !important;
+  margin-left: -25px !important;
 }
 
 #filetree li:hover {
@@ -58,15 +77,20 @@ CONTENT ITEMS
   vertical-align: top;
 }
 
+.contentFiles{
+	margin-top: 20px;
+	margin-left: 440px;
+	margin-bottom: 20px;
+}
+
 .item {
   position: relative;
-  background-color: #EFEFEF;
-  margin:  11px 0px 0px 11px;
+  z-index: -1;
+  margin: 5px;
   float: left;
   height: 290px;
   width: 290px;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
-  border-radius: 10px;
 }
 
 

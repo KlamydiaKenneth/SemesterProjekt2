@@ -7,10 +7,12 @@ CONTENT
 
 #content #signIn {
   background-color: #5d9818;
-  border-radius: 5px;
+  
   max-width: 300px;
   padding: 20px;
-  margin: 25px auto;
+  margin-top: 140px;
+  margin-bottom: 100px;
+  margin-left: 600px;
   overflow: hidden;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.7);
 }
@@ -20,7 +22,7 @@ CONTENT
 }
 
 #content #signIn p {
-  margin: 0;
+  margin: 5px;
   text-align: center;
   overflow: hidden;
   cursor: default;
@@ -37,28 +39,17 @@ CONTENT
   font-size: 20px;
 }
 
-#content input[type=text] {
-  border-radius: 10px 10px 0 0;
-  border-bottom: 1px solid #B5B5B5;
-}
-
-#content input[type=password] {
-  border-radius: 0 0 10px 10px;
-}
-
 #content input::placeholder {
   text-align: center;
-  color: grey;
+  color: gray;
 }
 
 
-#content input[type=submit] {
+#loginSubmit {
   margin-top: 10px;
   cursor: pointer;
-  background-color: #569212;
-  border: 1px solid #393;
-  border-right: 2px solid #282;
-  border-bottom: 2px solid #282;
+  background-color: #191919;
+  border: none;
   color: white;
   padding: 10px 22px;
   text-align: center;
@@ -66,19 +57,23 @@ CONTENT
   font: 10px ;
   display: inline-block;
   font-size: 20px;
-  border-radius: 10px;
 }
 
-#content input[type=submit]:hover {
-  background-color: #66A222
+#loginSubmit{
+	margin-left: 33%;
+}
+
+#loginSubmit:hover {
+  background-color: #323232
+}
+.footerOutro{
+	position: absolute;
 }
 
 #warning {
-  margin: 3px !important;
-  border: 2px dotted #000;
-  color: #C00;
-  background-color: #899;
-  font: initial !important;
+	color: #191919;
+	text-decoration: underline;
+	margin-left: 50px;
 }
 
 /*

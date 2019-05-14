@@ -7,9 +7,9 @@ CONTENT
 
 #content form {
   background-color: #F8F8F8;
-  border-radius: 15px;
   padding: 20px;
   margin: 25px auto;
+  margin-top: 70px;
   width: 350px;
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.7);
 }
