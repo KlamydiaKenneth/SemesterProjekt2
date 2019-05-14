@@ -2,7 +2,7 @@
 .frontPageHeader{
 	padding: 126px 16px;
 	text-align: center;
-	background-color: #5d9818;
+	background-color: #789D4A;
 	margin: 0;
 }
 #frontPageIntro {
@@ -32,13 +32,13 @@
 
 .contentContainer{
 	width: 100%;
-	height: 400px;
+	overflow: hidden;
 	background-color: #FFFFFF;
 	margin-top: -22px;
 }
 .contentContainer2{
 	width: 100%;
-	height: 400px;
+	overflow: hidden;
 	margin-top: 100px;
 	padding-bottom: 100px;
 	background-color: #e5e5e5;
@@ -55,7 +55,7 @@
 	margin-right: 18%;
 	width: 64%;
 }
-.firstText{
+.firstText {
 	width:60%;
 	float: left;
 }
@@ -80,13 +80,13 @@
 #firstFrontPageImg{
 	float: left;
 	padding-top: 75px;
-	height: 250px;
+	width: 36%;
 }
 #secondFrontPageImg{
 	float: left;
 	padding-top: 75px;
 	padding-right: 20px;
-	height: 200px;
+	width: 36%;
 }
 .fillerContentContainer{
 	text-align: center;
@@ -106,4 +106,24 @@
 	color: #ffffff;
 	padding-bottom: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+	.firstImg{
+	display:none;
+	}
+	.firstText, .secondText {
+    width: 100%;
+	}
+	.contentGrey, .contentWhite{
+	padding-top: 60px;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	}
+	{
+
+	
+}
+
+
 

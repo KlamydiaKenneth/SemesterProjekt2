@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+	<ADMIN>
+		<FILE>
+			<IMGSRC>img/SemesterProjektFileIMG.png</IMGSRC>
+			<NAME>test_file1.js</NAME>
+			<SUBJECT>Distribueret programmering</SUBJECT>
+			<DESC>a very descriptive description</DESC>
+		</FILE>
+		<FILE>
+			<IMGSRC>img/SemesterProjektFileIMG.png</IMGSRC>
+			<NAME>test_file2.html</NAME>
+			<SUBJECT>Distribueret programmering 4</SUBJECT>
+			<DESC>a less descriptive description</DESC>
+		</FILE>
+		<FILE>
+			<IMGSRC>img/SemesterProjektFileIMG.png</IMGSRC>
+			<NAME>test_file4.html</NAME>
+			<SUBJECT>Distribueret programmering 4</SUBJECT>
+			<DESC>a less descriptive description</DESC>
+		</FILE>
+		<FILE>
+			<IMGSRC>img/SemesterProjektFileIMG.png</IMGSRC>
+			<NAME>test_file2525.html</NAME>
+			<SUBJECT>Distribueret programmering 4</SUBJECT>
+			<DESC>a less descriptive description</DESC>
+		</FILE>
+		<FILE>
+			<IMGSRC>img/SemesterProjektFileIMG.png</IMGSRC>
+			<NAME>test_file252525.html</NAME>
+			<SUBJECT>Distribueret programmering 4</SUBJECT>
+			<DESC>a less descriptive description</DESC>
+		</FILE>
+		<FILE>
+			<IMGSRC>img/Nikkerlaj.jpg</IMGSRC>
+			<NAME>Nikkerlaj.jpg</NAME>
+			<SUBJECT>Andet</SUBJECT>
+			<DESC>Look at That!</DESC>
+		</FILE>
+	</ADMIN>
+	<USERID2>
+		<FILE>
+			<IMGSRC>img/Nikkerlaj.jpg</IMGSRC>
+			<NAME>Nikkerlaj1.jpg</NAME>
+			<SUBJECT>PrivateStash</SUBJECT>
+			<DESC>Look at That!</DESC>
+		</FILE>
+		<FILE>
+			<IMGSRC>img/Nikkerlaj.jpg</IMGSRC>
+			<NAME>Nikkerlaj2.jpg</NAME>
+			<SUBJECT>PrivateStash</SUBJECT>
+			<DESC>So Pretty!</DESC>
+		</FILE>
+		<FILE>
+			<IMGSRC>img/Nikkerlaj.jpg</IMGSRC>
+			<NAME>Nikkerlaj3.jpg</NAME>
+			<SUBJECT>PrivateStash</SUBJECT>
+			<DESC>CUTE!!</DESC>
+		</FILE>
+		<FILE>
+			<IMGSRC>img/Nikkerlaj.jpg</IMGSRC>
+			<NAME>Nikkerlaj4.jpg</NAME>
+			<SUBJECT>PrivateStash</SUBJECT>
+			<DESC>idk what to say!</DESC>
+		</FILE>
+		<FILE>
+			<IMGSRC>img/Nikkerlaj.jpg</IMGSRC>
+			<NAME>NikkerlajBackUp1.jpg</NAME>
+			<SUBJECT>PrivateStash</SUBJECT>
+			<DESC>Backup!</DESC>
+		</FILE>
+		<FILE>
+			<IMGSRC>img/Nikkerlaj.jpg</IMGSRC>
+			<NAME>NikkerlajBackUp2.jpg</NAME>
+			<SUBJECT>PrivateStash</SUBJECT>
+			<DESC>Backup2!</DESC>
+		</FILE>
+	</USERID2>
+</CATALOG>

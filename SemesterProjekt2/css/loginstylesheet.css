@@ -1,18 +1,28 @@
 /*
+custom header
+*/
+
+/*
 CONTENT
 */
 
 #content {
 }
 
+#content #loggedIn {
+
+  margin: 0;
+  	margin-top: 25px;
+  text-align: center;
+  cursor: default;
+  font-size: 20px;
+}
+
 #content #signIn {
-  background-color: #5d9818;
-  
+  background-color: #789D4A;
   max-width: 300px;
   padding: 20px;
-  margin-top: 140px;
-  margin-bottom: 100px;
-  margin-left: 600px;
+  margin: 70px auto 50px auto;
   overflow: hidden;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.7);
 }
@@ -44,9 +54,8 @@ CONTENT
   color: gray;
 }
 
-
-#loginSubmit {
-  margin-top: 10px;
+#content input[type=submit] {
+  margin: 10px auto;
   cursor: pointer;
   background-color: #191919;
   border: none;
@@ -59,11 +68,7 @@ CONTENT
   font-size: 20px;
 }
 
-#loginSubmit{
-	margin-left: 33%;
-}
-
-#loginSubmit:hover {
+#content input[type=submit]:hover {
   background-color: #323232
 }
 .footerOutro{
