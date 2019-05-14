@@ -22,13 +22,23 @@ CONTENT
   margin: 0 !important;
 }
 
-#content #submit{
-  overflow: hidden;
+#content input[type=submit] {
+  margin: 10px auto;
+  cursor: pointer;
+  background-color: #789D4A;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  font: 10px ;
+  display: block;
+  font-size: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.7);
 }
 
-#content input[type=submit] {
-  float: right;
-  margin-top: 20px;
+#content input[type=submit]:hover {
+  background-color: #AEB862
 }
 
 /*

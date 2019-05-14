@@ -20,13 +20,13 @@ Clear is for correcting possible float:; visual artifacts
   clear: both;
 }
 
-
 /*
 NAVIGATION BAR
 */
 
 .navBar {
 	position: fixed;
+	z-index: 1;
 	width: 100%;
 	height: 50px;
 	top: 0;
