@@ -8,6 +8,14 @@
 		<link rel="stylesheet" href="css/uploadstylesheet.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+		
+				
+		<link rel="stylesheet" href="jQuery/ui/1.12.1/themes/base/jquery-ui.css">
+		<script src="jQuery/jquery-1.12.4.js"></script>
+		<script src="jQuery/ui/1.12.1/jquery-ui.js"></script>
+		
+		<script src="jQuery/Upload.js"></script>
+		
 	</head>
 	<body > 
 		<div class="navBar">
@@ -15,34 +23,34 @@
        			<img id="sduLogo" src="img/Optek repository logo.png" />
        		</a>
        		<div class="navBarLinks">
-       			<a href="profile.html" class="homeLink">Profile</a>
-       			<a href="Upload.html" class="Link1">Upload</a>
-       			<a href="content.html" class="Link2">Content</a>
-       			<a href="login.html" class="Link3">Login</a>
+				<a href="index.html" >Home</a>
+       			<a href="profile.html" >Profile</a>
+       			<a href="Upload.html" >Upload</a>
+       			<a href="content.html" >Content</a>
+       			<a href="login.html" >Login</a>
        		</div>
 		</div>
+		<div id="dummyNavBar" class="clear"></div>
 		<div id="content" class="clear">
-			<form>
-				<input type="hidden" id="UserId" name="UserId" value="1337">
+			<form id="uploadForm"  onsubmit='onSubmit(); return false;'>
+				<input type="hidden" id="UserId" name="UserId" value="UserId2">
 				<p>Select Files:</p>
-				<input type="file" name="Files" multiple>
+				<input type="file" name="Files" required>
 				<p>Subject:</p>
-				<input type="radio" name="Subject" Value="Subject1" ><span>Distribueret programmering</span><br>
-				<input type="radio" name="Subject" Value="Subject2"><span>Udvikling af interaktive systemer til mennesker</span><br>
-				<input type="radio" name="Subject" Value="Subject3"><span>Videregående udvikling af 3D applikationer</span><br>
+				<input type="radio" name="Subject" Value="Distribueret programmering" ><span>Distribueret programmering</span><br>
+				<input type="radio" name="Subject" Value="Udvikling af interaktive systemer til mennesker"><span>Udvikling af interaktive systemer til mennesker</span><br>
+				<input type="radio" name="Subject" Value="Videregående udvikling af 3D applikationer"><span>Videregående udvikling af 3D applikationer</span><br>
 				<input type="radio" name="Subject" Value="Other" CHECKED><span>Andet</span>
 				<p>Folder:</p>
-				<input type="text" name="Folder" value="">
+				<input type="text" id="autoFolder" name="Folder" value="">
 				<p>Co-Workers:</p>
-				<input type="text" name="Coworker" value="">
+				<input type="text" id="autoCoop" name="Coworker" value="">
 				<p>Privacy:</p>
 				<input type="radio" name="Privacy" Value="Private" CHECKED><span>Private</span><br>
 				<input type="radio" name="Privacy" Value="Public"><span>Public</span>
 				<p>Description:</p>
 				<textarea rows="3" cols="40" name="Description"></textarea><br>
-				<div id="submit">
-					<input type="submit" value="Upload" onclick="alert('All your file are belong to us')">
-				</div>
+				<input type="submit" id="submit" value="Upload" onclick="alert('All your file are belong to us')">
 			</form>
 		</div>
 		<div class="footerOutro">
@@ -50,16 +58,14 @@
        			<a href="#" id="footerLink1">Terms of Service</a>
        			<a href="#" id="footerLink2">Contact Us</a>
        			<a href="#" id="footerLink3">Privacy Policy</a>
-       			<a href="#" id="footerLink4">FAQ</a>
+       			<a href="#" id="footerLink4">FAQ</a><br />
+				<a href="https://www.sdu.dk ">
+					<img id="sduLink" src="img/SDU_BLACK_RGB_png.png" />
+				</a>
        			<div class="poweredBY">
        				<p class="poweredBY2">Powered by Über nice people</p>
        			</div>
        		</footer>
 	   </div>
 	</body>
-
-<script>
-//Insert Scripts Here!!!
-</script>
-
 </html>

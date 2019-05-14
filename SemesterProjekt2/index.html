@@ -5,11 +5,16 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/stylesheet.css">
-		<link rel="stylesheet" href="css/indexstylesheet.html">
+		<link rel="stylesheet" href="css/indexstylesheet.css">
+		
+		<script src="https://code.createjs.com/1.0.0/easeljs.min.js"></script>
 		<script src="https://code.createjs.com/1.0.0/tweenjs.min.js"></script>
+		<script src="jQuery/jquery-1.12.4.js"></script>
+		
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-        <script src="jQuery/quoteTweening/quoteAnimation.js"></script>
+        
+		<script src="jQuery/quoteTweening/quoteAnimation.js"></script>
     </head>
     <body>
        <div class="navBar">
@@ -23,22 +28,17 @@
        </div>
        <div class="introduction">
        		<header class="frontPageHeader">
-       			<h1 id="frontPageIntro">Start Page</h1>
-       			<p id="frontPageParagaph">Write some call to action here</p>
+       			<h1 id="frontPageIntro">OPTEK repository?</h1>
+       			<p id="frontPageParagaph">"Del dit projekt med verden"</p>
        			<button id="signUpButton">Sign Up</button>
        		</header>
        </div>
        <div class="contentContainer">
        		<div class="contentWhite">
-       			<div class="firstText">
-       				<h1 class="contentHeader">Lorem Ipsum</h1>
-       				<h5 class="contentTextBlack">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-       										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
-       					<p class="contentTextGrey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-       										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        									occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-        									et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        									laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<div class="firstText">
+       				<h1 class="contentHeader" >Hvad er OPTEK repository?</h1>
+       				<h5 class="contentTextBlack" >OPTEK Repository er en webpage hvor du som studerende på Lærings- og Oplevelsesteknologi (OPTEK) kan uploade dine færdige produkter fra de projekter, som du har udviklet i løbet af uddannelsen. Produkterne vil være tilgængelige for andre studerende på OPTEK.</h5>
+       					<p class="contentTextGrey" >Vi er blevet gjort opmærksomme på at man ofte udvikler videre på sine produkter og derved mister sit oprindelige produkt som man blev eksamineret i. Tidligere er det set at når man uploader til BlackBoard, så slettes ens upload efter en periode og man mister derved den/de filer, som man i sin tid afleverede. Det ønsker vi at rode bod på med OPTEK repostory.</p>
        			</div>
        			<div class="firstImg">
        				<img id="firstFrontPageImg" src="img/SemesterProjektFileIMG.png" />
@@ -46,7 +46,7 @@
        		</div>
        </div>
        
-       <div class="contentContainer2">
+       <div class="contentContainer2 clear">
        		<div class="contentGrey">
        			<div class="firstImg">
        				<img id="secondFrontPageImg" src="img/SemesterProjektProfileIMG.png" />
@@ -63,18 +63,19 @@
        			</div>
        		</div>
        </div>
-       
-       <div class="fillerContentContainer">
+       <div class="fillerContentContainer clear">
        		<h3 class="question">Quote of the day:</h3>
-       		<p class="answer">"Never wish life were easier, wish that you were better." - Jim Rohn</p>
+			<canvas id="canvas" width="800" height="50"></canvas>
        </div>
-       
        <div class="footerOutro">
        		<footer id="footer">
        			<a href="#" id="footerLink1">Terms of Service</a>
        			<a href="#" id="footerLink2">Contact Us</a>
        			<a href="#" id="footerLink3">Privacy Policy</a>
-       			<a href="#" id="footerLink4">FAQ</a>
+       			<a href="#" id="footerLink4">FAQ</a><br>
+				<a href="https://www.sdu.dk ">
+					<img id="sduLink" src="img/SDU_BLACK_RGB_png.png" />
+				</a>
        			<div class="poweredBY">
        				<p class="poweredBY2">Powered by Über nice people</p>
        			</div>

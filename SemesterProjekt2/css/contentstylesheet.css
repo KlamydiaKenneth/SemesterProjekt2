@@ -7,15 +7,22 @@ CONTENT
   width: 100%;
   min-height: 800px;
   margin: 0 auto;
-  margin-top: 50px;
+}
+
+.contentFiles{
+}
+
+#main {
+  vertical-align: top;
 }
 
 /*
 CONTENT SIDEBAR
 */
-ul {
-  list-style: none; /* Remove default bullets */
+#filetree ul {
+  list-style-type: none; /* Remove default bullets */
 }
+
 ul li:before {
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #5D9818; /* Change the color */
@@ -28,41 +35,31 @@ ul li:before {
   border: none;
 }
 
-
-.contentDirectory{
-	float: left;
-	margin-top: 25px;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	margin-left: 20px;
-	width: 400px;
-	height: 300px;
-	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-}
-
 #filetree {
   min-width: 180px;
+  max-width: 260px;
   float: left;
   background-color: #DDD;
-  padding: 10px;
-  margin-right: 2px;
-  margin-top: 13px;
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+  padding: 8px;
+  margin: 17px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
 
 #filetree ul {
   width: auto;
   margin: auto;
+  padding-inline-start: 0px;
 }
 
 #filetree li {
+  display: block;
+  margin-left: 16px;
   font-family: "Lato", sans-serif;
-  cursor: pointer;
-  margin-left: -30px;    
+  cursor: pointer;    
 }
 
 .sidesub li {
-  margin-left: -25px !important;
+  margin-left: 32px !important;
 }
 
 #filetree li:hover {
@@ -73,42 +70,33 @@ ul li:before {
 CONTENT ITEMS
 */
 
-#main {
-  vertical-align: top;
-}
-
-.contentFiles{
-	margin-top: 20px;
-	margin-left: 440px;
-	margin-bottom: 20px;
-}
-
 .item {
   position: relative;
-  z-index: -1;
   margin: 5px;
   float: left;
   height: 290px;
   width: 290px;
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
 }
-
 
 .item:last-of-type {
   margin-bottom:  11px; !important;
 }
 
 .img {
-  margin: 10px 10px 0px 10px;
-  height: 60%;
-  width: 90%;
+  margin: 2% 2% 2% 2%;
+  height: 61%;
+  width: 96%;
+  max-height: 150px;
+  max-width: 290px;
 }
 
 .name {
-  margin: 0px 10px 2px 10px;
+  padding: 0px 10px 2px 10px;
+  margin: 0;
 }
 
-.fileIcon{
+.nameIcon{
 	float: left;
 	width: 18px;
 	margin-left: 5px;
@@ -116,7 +104,8 @@ CONTENT ITEMS
 }
 
 .subject {
-  margin: 0px 10px 2px 10px;
+    padding: 0px 10px 2px 10px;
+	margin: 0;
 }
 
 .subjectIcon{
@@ -127,7 +116,12 @@ CONTENT ITEMS
 }
 
 .desc {
-  margin: 0px 10px 0px 10px;
+    padding: 0px 10px 2px 10px;
+	margin: 0;
+}
+
+.loginLink{
+	display: contents;
 }
 
 .downloadIcon{
@@ -136,4 +130,9 @@ CONTENT ITEMS
 	right: 5px;
 	width: 20px;
 	margin:auto;
+}
+@media only screen and (max-width: 600px) {
+	#filetree {
+	  display:none;
+	}
 }
