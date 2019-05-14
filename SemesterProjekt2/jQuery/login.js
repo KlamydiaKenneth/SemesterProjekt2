@@ -37,7 +37,6 @@ function onSubmit() {
 		//console.log("user Input:");  //name of input instead of title
 		//console.log(dataObj);
 		
-	
 	//mangler for-loop hvis der skal gemmes "nye brugere" til at check dem
 	
 	//check om det er "admin" bruger login

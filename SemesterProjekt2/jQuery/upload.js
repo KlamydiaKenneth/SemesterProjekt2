@@ -95,7 +95,7 @@ function addSubmitListener() {
   var form = document.getElementById("uploadForm");
 //	console.log($("form").serializeArray());
 
-  form.addEventListener("submit", function(event) {
+	form.addEventListener("submit", function(event) {
     event.preventDefault();
 
     //getData();
@@ -107,8 +107,13 @@ function onSubmit() {
 	formOut = $(formIn).serializeArray();
 	console.log(formOut);
 	
-	console.log(formOut[0].value + "test for username"); //UserId
-	
+	console.log(formOut[0].value + " test for username"); //UserId
+	//if loged in change username to that userID
+	if (localStorage.UserId) 
+	{
+		formOut[0].value = localStorage.UserId;
+	}
+	console.log(formOut[0].value + " test for username"); //UserId
 	addContent();
 
 }
