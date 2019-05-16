@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
         
+		<script src="jQuery/navBar.js"></script>
 		<script src="jQuery/quoteTweening/quoteAnimation.js"></script>
     </head>
     <body>
@@ -22,18 +23,22 @@
        			<img id="sduLogo" src="img/Optek repository logo.png" />
        		</a>
        		<div class="navBarLinks">
-       			<a href="index.html" class="homeLink">Home</a>
-       			<a href="login.html" class="Link3">Login</a>
-       		</div>
+				<a href="index.html" class="linkHome navBarLink"><p>Home</p></a>
+       			<a href="upload.html" class="linkUpload navBarLink" ><p>Upload</p></a>
+       			<a href="content.html" class="linkContent navBarLink" ><p>Content</p></a>
+				<a href="#" class="linkLogout navBarLink floatRight" ><img class="navBarIcon" src="img/SemesterProjektProfileIMG.png" /><p>Logout</p></a>
+				<a href="profile.html" class="linkProfile navBarLink floatRight" ><img class="navBarIcon" src="img/UddannelseIcon.png" /><p>Profile</p></a>
+       			<a href="login.html" class="linkLogin navBarLink floatRight"><img class="navBarIcon" src="img/SemesterProjektProfileIMG.png" /><p>Login</p></a>
+			</div>
        </div>
-       <div class="introduction">
+		<div class="introduction">
        		<header class="frontPageHeader">
        			<h1 id="frontPageIntro">OPTEK repository?</h1>
-       			<p id="frontPageParagaph">"Del dit projekt med verden"</p>
+       			<p id="frontPageParagaph">"Del dine projekter med verden"</p>
        			<button id="signUpButton">Sign Up</button>
        		</header>
-       </div>
-       <div class="contentContainer">
+		</div>
+		<div class="contentContainer">
        		<div class="contentWhite">
 				<div class="firstText">
        				<h1 class="contentHeader" >Hvad er OPTEK repository?</h1>
@@ -44,37 +49,33 @@
        				<img id="firstFrontPageImg" src="img/SemesterProjektFileIMG.png" />
        			</div>
        		</div>
-       </div>
+		</div>
        
-       <div class="contentContainer2 clear">
+		<div class="contentContainer2 clear">
        		<div class="contentGrey">
        			<div class="firstImg">
        				<img id="secondFrontPageImg" src="img/SemesterProjektProfileIMG.png" />
        			</div>
        			<div class="secondText">
-       				<h1 class="contentHeader">Lorem Ipsum</h1>
-       				<h5 class="contentTextBlack">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-       										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
-       					<p class="contentTextGrey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-       										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        									occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-        									et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        									laboris nisi ut aliquip ex ea commodo consequat.</p>
+       				<h1 class="contentHeader">Bag om koden</h1>
+       				<h5 class="contentTextBlack">OPTEK Repository er lavet af en gruppe på 6 studerende fra OPTEK, på 2. semester. Gruppen består af de studerende Nikolaj Martinus Kristensen, Mathias Boelsmand Nielsen, Mira Berg Schmidt, Simone Dalager, Nichlas Bælum og Martin Mølvadgaard Svensson.</h5>
+       					<p class="contentTextGrey">Vi er en gruppe bestående af studerende med vidt forskellige baggrunde og med et aldersspænd fra 20-26 år. Vores livserfaringer og erfaringer med kode spreder sig lige så langt som fra Grønland til Antarktis. Vi spænder lige fra uddannet datamatiker til nyudsprunget student. Selvom vi er forskellige har det ikke hindret os i at arbejde hårdt og målrettet.
+												Ønsker du at komme i kontakt med os henviser vi til “Contact us” formularen, som findes nederst på siden.</p>
        			</div>
        		</div>
-       </div>
-       <div class="fillerContentContainer clear">
+		</div>
+		<div class="fillerContentContainer clear">
        		<h3 class="question">Quote of the day:</h3>
 			<canvas id="canvas" width="800" height="50"></canvas>
-       </div>
-       <div class="footerOutro">
+		</div>
+		<div class="footerOutro">
        		<footer id="footer">
        			<a href="#" id="footerLink1">Terms of Service</a>
        			<a href="#" id="footerLink2">Contact Us</a>
        			<a href="#" id="footerLink3">Privacy Policy</a>
-       			<a href="#" id="footerLink4">FAQ</a><br>
+       			<a href="#" id="footerLink4">FAQ</a><br />
 				<a href="https://www.sdu.dk ">
-					<img id="sduLink" src="img/SDU_BLACK_RGB_png.png" />
+					<img id="sduLink" src="img/SDU_WHITE_RGB-png.png" />
 				</a>
        			<div class="poweredBY">
        				<p class="poweredBY2">Powered by Über nice people</p>

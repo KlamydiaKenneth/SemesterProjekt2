@@ -45,18 +45,29 @@ NAVIGATION BAR
 	text-align: center;
 	display:block;
 	margin: auto;
-	padding: 14px;
 }
 
 .navBarLinks a{
-	height: 50px;
-	padding: 14px 2% 17px 2%;
-
-	margin: -4px;
+	display: inline-block;
 	color: #000000;
-
+	padding: 0 15px 0 15px;
 	text-decoration: none;
 	font-weight: bold;
+	height: 50px;
+}
+
+.navBarLinks p{
+	color: #000000;
+}
+
+.floatRight{
+	float: right;
+}
+
+.floatRight p{
+	padding: 0;
+	margin: 0;
+	margin-top: -10px;
 }
 
 .navBarLinks a:hover{
@@ -69,6 +80,13 @@ NAVIGATION BAR
 
 .navBarLinks a:active{
 	background-color: #6da22f;
+}
+
+
+.navBarIcon {
+	height: 25px;
+	padding: 3px;
+	margin: 0;
 }
 
 #dummyNavBar { /* to push all elements down so the navbar dont cover them up*/
@@ -88,7 +106,7 @@ footer
 */
 
 .footerOutro{
-	background-color: #E5E5E5;
+	background-color: #000000;
 	width: 100%;
 	bottom: 0;
 	height: 200px;
@@ -101,7 +119,7 @@ footer
 
 #footer a{
 	vertical-align: middle;
-	color:#000000;
+	color: #DDDDDD;
 	margin-left: 10px;
 	margin-right: 10px;
 	text-decoration: none;
@@ -112,11 +130,11 @@ footer
 }
 
 #footer a:visited{
-	color: #000000;
+	color: #DDDDDD;
 }
 
 #footer a:active{
-	color: #000000;
+	color: #DDDDDD;
 }
 
 #sduLink{

@@ -49,6 +49,7 @@ function onSubmit() {
 		$("#warning").html("");
 		
 		localStorage.setItem("UserId", "admin");
+		window.location = "profile.html";
 	}
 	else
 	{

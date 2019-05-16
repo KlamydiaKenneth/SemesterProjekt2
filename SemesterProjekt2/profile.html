@@ -11,6 +11,9 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 		
+		<script src="jQuery/jquery-1.12.4.js"></script>
+		
+		<script src="jQuery/navBar.js"></script>
     </head>
     <body>
     	
@@ -19,11 +22,12 @@
        			<img id="sduLogo" src="img/Optek repository logo.png" />
        		</a>
        		<div class="navBarLinks">
-				<a href="index.html" >Home</a>
-       			<a href="profile.html" >Profile</a>
-       			<a href="upload.html" >Upload</a>
-       			<a href="content.html" >Content</a>
-       			<a href="login.html" >Login</a>
+				<a href="index.html" class="linkHome navBarLink"><p>Home</p></a>
+       			<a href="upload.html" class="linkUpload navBarLink" ><p>Upload</p></a>
+       			<a href="content.html" class="linkContent navBarLink" ><p>Content</p></a>
+				<a href="#" class="linkLogout navBarLink floatRight" ><img class="navBarIcon" src="img/SemesterProjektProfileIMG.png" /><p>Logout</p></a>
+				<a href="profile.html" class="linkProfile navBarLink floatRight" ><img class="navBarIcon" src="img/UddannelseIcon.png" /><p>Profile</p></a>
+       			<a href="login.html" class="linkLogin navBarLink floatRight"><img class="navBarIcon" src="img/SemesterProjektProfileIMG.png" /><p>Login</p></a>
        		</div>
     	</div>
     	
@@ -148,7 +152,7 @@
        			<a href="#" id="footerLink3">Privacy Policy</a>
        			<a href="#" id="footerLink4">FAQ</a><br />
 				<a href="https://www.sdu.dk ">
-					<img id="sduLink" src="img/SDU_BLACK_RGB_png.png" />
+					<img id="sduLink" src="img/SDU_WHITE_RGB-png.png" />
 				</a>
        			<div class="poweredBY">
        				<p class="poweredBY2">Powered by Über nice people</p>

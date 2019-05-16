@@ -1,12 +1,12 @@
 
-var quotes = ["\"Never wish life were easier, wish that you were better.\" - Jim Rohn",
-"\"You learn more from failure than from success. Don't let it stop you. Failure builds character.\" - Unkown",
+var quotes = ["\"Never wish life were easier, wish that you were better\" - Jim Rohn",
+"\"You learn more from failure than from success. Don't let it stop you. Failure builds character\" - Unkown",
 "\"The way to get started is to quit talking and begin doing\" - Walt Disney",
-"\"What we think, we become.\" - Buddha",
-"\"Success is not tp be pursued; it is to be attracted by the person we become\" - Jim Rohn",
-"\"All our dreams can come true, if we have the courage to pursue them.\" - Walt Disney",
-"\"We May Encounter Many Defeats But We Must Not Be Defeated.\" – Maya Angelou",
-"\"Live your life, be happy\". - Simone Dalager",
+"\"What we think, we become\" - Buddha",
+"\"Success is not to be pursued; it is to be attracted by the person we become\" - Jim Rohn",
+"\"All our dreams can come true, if we have the courage to pursue them\" - Walt Disney",
+"\"We May Encounter Many Defeats But We Must Not Be Defeated\" – Maya Angelou",
+"\"Live your life, be happy\" - Simone Dalager",
 "\"Har de ikke sex foran hans lig?\" - Martin M. Svensson",
 "\"Bare lidt...\" - Mira Berg Schmidt"];
 

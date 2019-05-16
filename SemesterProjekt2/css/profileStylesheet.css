@@ -175,36 +175,24 @@ CONTENT mostly uniq so empty
 	color: #333333;
 }
 
-
-
 .contentDescription{
 	clear: both;
 	margin-top: 0px;
 	color: #333333;
 }
+
 .contentLine{
 	margin-top: 30px;
 	width: 80%;
 	border: 0;
 	background-color:#E5E5E5;
 	height: 1px;
-	
 }
 
 /*
 footer
 */
 
-#footer{
-	padding-top: 80px;
-}
-
 .footerOutro{
-	background-color: #5d9818;
 	float:left;
-	height: 200px;
 }
-#footer a{
-	color:#000000;
-}
-
